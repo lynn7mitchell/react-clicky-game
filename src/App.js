@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import './App.css'
 import Image from './components/Image.js'
+import Wrapper from './components/Wrapper.js'
 import allPokemon from './allPokemon.json'
 var shuffle = require('shuffle-array')
 
@@ -66,13 +67,14 @@ export class App extends Component {
     return (
       
       <div>
-        
+        <div className="gridContainer">
         {
          
           this.state.allPokemon.map(pokemon =>(
             <Image img={pokemon.link} key={pokemon.id} id={pokemon.id} handleClicked={this.handleClicked} alt={pokemon.name} />
           ))
         }
+        </div>
       </div>
     )
   }

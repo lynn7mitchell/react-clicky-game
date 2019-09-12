@@ -1,3 +1,14 @@
 body{
   background: #333;
 }
+.gridContainer{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .gridContainer{
+    grid-template-columns: 1fr;
+  }
+}

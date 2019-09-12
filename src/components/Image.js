@@ -3,12 +3,12 @@ import React from 'react'
 export default function Image(props) {
 
     const imgStyle={
-        height: '40px'
+        height: '25vh',
+        margin: 0,
+        padding: 0
     }
 
     return (
-        <div className="img-container" >
             <img src={props.img} style={imgStyle} onClick={props.handleClicked} id={props.id}/>
-        </div>
     )
 }
