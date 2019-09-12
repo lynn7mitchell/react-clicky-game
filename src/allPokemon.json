@@ -1,0 +1,47 @@
+[
+    {
+        "id": 1,
+        "name": "bulbasaur",
+        "link": "./images/bulbasaur.png"
+    },
+    {
+        "id": 2,
+        "name": "ivysaur",
+        "link": "./images/ivysaur.png"
+    },
+    {
+        "id": 3,
+        "name": "venusaur",
+        "link": "./images/venusaur.png"
+    },
+    {
+        "id": 4,
+        "name": "charmander",
+        "link": "./images/charmander.png"
+    },
+    {
+        "id": 5,
+        "name": "charmeleon",
+        "link": "./images/charmeleon.png"
+    },
+    {
+        "id": 6,
+        "name": "charizard",
+        "link": "./images/charizard.png"
+    },
+    {
+        "id": 7,
+        "name": "squirtle",
+        "link": "./images/squirtle.png"
+    },
+    {
+        "id": 8,
+        "name": "wartortle",
+        "link": "./images/wartortle.png"
+    },
+    {
+        "id": 9,
+        "name": "blastoise",
+        "link": "./images/blastoise.png"
+    }
+]

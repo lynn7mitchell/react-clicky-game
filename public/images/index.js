@@ -8,10 +8,6 @@ export const allPokemon = [
     require('./squirtle.png'),
     require('./wartortle.png'),
     require('./blastoise.png')
-    // require('./ivysaur.png'),
-    // require('./charmander.png'),
-    // require('./charmander.png')
-
 
 
 ]
