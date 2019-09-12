@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import './App.css'
 import Image from './components/Image.js'
-import Wrapper from './components/Wrapper.js'
+import Topbar from './components/Topbar.js'
 import allPokemon from './allPokemon.json'
 var shuffle = require('shuffle-array')
 
@@ -67,6 +67,7 @@ export class App extends Component {
     return (
       
       <div>
+        <Topbar score={this.state.score} topscore={this.state.topScore}/>
         <div className="gridContainer">
         {
          
